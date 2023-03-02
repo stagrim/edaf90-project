@@ -1,0 +1,31 @@
+{
+    "title": "Linsgryta med kokosmjölk",
+    "img": "4542.JPG",
+    "description": "Krämig och matig linsgryta värmer skönt en kall höstkväll. Grytan är smaksatt med vitlök, curry och sambal oelek och gjord med kokosmjölk för extra krämighet. Servera med ris, halverade körsbärstomater och toppa med färsk koriander",
+    "time": 45,
+    "difficulty": 2,
+    "ingredients": [        
+        "4 port ris eller annat gryn",
+        "1 gul lök",
+        "1 msk olja",
+        "1 vitlöksklyfta",
+        "1 tsk curry",
+        "2 msk tomatpuré",
+        "400 ml kokosmjölk",
+        "2 1/2 dl vatten",
+        "1 grönsaksbuljongtärning",
+        "2 dl torkade röda linser",
+        "1 tsk sambal oelek",
+        "250 g körsbärstomater",
+        "salt",
+        "peppar",
+        "1 kruka koriander"
+    ],
+    "steps": [
+        "koka riset enligt anvisningen på förpackningen.",
+        "Skala och hacka löken. Fräs den i oljan i en gryta. Pressa i vitlök och tillsätt curry och tomatpuré och fräs ytterligare någon minut.",
+        "Rör i kokosmjölk, vatten, smulad buljongtärning, linser och sambal oelek. Låt koka ca 15 minuter eller tills linserna är mjuka. Späd eventuellt med mer vatten.",
+        "Dela tomaterna och vänd ner dem i grytan mot slutet av koktiden eller servera dem till. Smaka av grytan med salt och peppar.",
+        "Servera grytan med ris och tomater och toppa med koriander."
+    ]
+}
