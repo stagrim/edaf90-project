@@ -1,18 +1,19 @@
 <script lang="ts">
-    import type { Recipe } from "../../../backend/server";
+    import LayoutGrid, { Cell } from "@smui/layout-grid";
+    import RecipeCard from "../components/RecipeCard.svelte";
+    import type { Recipe } from "src/utils/types";
     import type { PageData } from "./$types";
 
     export let data: PageData;
-    let recipes: Recipe[] = data.item
+    let recipes: Recipe[] = data.recipes;
 </script>
 
-<h1>All recipes</h1>
+<h1 style="padding-left: 50px">Alla recept</h1>
 
-{#each recipes as recipe}
-    <a href={`/recipe/${recipe.id}`}>
-        <p>
-            {recipe.title}
-            <img width="300px" src={recipe.img} alt="">
-        </p>
-    </a>
-{/each}
+<LayoutGrid style="padding: 0 50px;">
+    {#each recipes as recipe}
+        <Cell span={3}>
+            <RecipeCard title={recipe.title} img={recipe.img} />
+        </Cell>
+    {/each}
+</LayoutGrid>
