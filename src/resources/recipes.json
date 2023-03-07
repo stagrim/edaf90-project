@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Linsgryta med kokosmjölk",
-        "img": "4542.JPG",
+        "img": "imgs/4542.JPG",
         "description": "Krämig och matig linsgryta värmer skönt en kall höstkväll. Grytan är smaksatt med vitlök, curry och sambal oelek och gjord med kokosmjölk för extra krämighet. Servera med ris, halverade körsbärstomater och toppa med färsk koriander",
         "time": 45,
         "difficulty": 2,
@@ -34,7 +34,7 @@
     {
         "id": "2",
         "title": "Linsgryta med tomat och fetaost",
-        "img": "4487.JPG",
+        "img": "imgs/4487.JPG",
         "description": "En vegetarisk linsgryta är en riktig vardagsräddare som alltid går hem. Mustig, snabblagad och blir extra god med fetaost som topping",
         "time": 15,
         "difficulty": 1,
@@ -62,5 +62,36 @@
             "Smula över fetaost och strö över persilja.",
             "Servera med surdegsbröd eller liknande."
         ]
+    },
+    {
+        "id": "c8bfd33f-5dda-439a-9b25-71c772c678c0",
+        "title": "Fläskytterfilé med svampsås, brysselkål och potatis",
+        "description": "Idag blir det en riktig fest till middag, med potatis och brysselkål i ugn som får sällskap på tallriken av fläskytterfilé och en krämig sås med smak av svamp. Perfekt sätt att starta helgen på!",
+        "img": "imgs/88cbbe95-f698-4b18-a01e-84c672830b0d.jpeg",
+        "time": 45,
+        "ingredients": [
+            "900 g potatis",
+            "500 g brysselkål",
+            "1 msk olja",
+            "salt",
+            "peppar",
+            "1 gul lök",
+            "1 msk olja",
+            "2 dl mjölk",
+            "2 tsk majsstärkelse",
+            "2 dl crème fraiche karljohansvamp & timjan",
+            "1 msk japansk soja",
+            "ca 600 g fläskytterfilé",
+            "1 msk olja"
+        ],
+        "steps": [
+            "Sätt ugnen på 225°C och sätt in en plåt.",
+            "Skär potatisen i skivor. Blanda den och brysselkålen med olja, salt och peppar (dela brysselkålen om de är stora). Häll ut på den varma plåten och rosta mitt i ugnen ca 25 minuter.",
+            "Skala och hacka löken. Bryn löken i oljan i en kastrull.",
+            "Blanda mjölken med majsstärkelsen och vispa ner i kastrullen. Rör ner crème fraiche och soja. Låt koka upp. Smaka av såsen med salt och peppar.",
+            "Skär köttet i ca 1 cm tjocka skivor och stek dem i oljan i en stekpanna ca 2 minuter på varje sida. Krydda med salt och peppar.",
+            "Servera köttet med sås, potatis och brysselkål."
+        ],
+        "difficulty": 2
     }
 ]
