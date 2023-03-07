@@ -8,12 +8,10 @@
     let recipes: Recipe[] = data.recipes;
 </script>
 
-<h1 style="padding-left: 50px">Alla recept</h1>
-
-<LayoutGrid style="padding: 0 50px;">
+<LayoutGrid style="padding: 2%;">
     {#each recipes as recipe}
         <Cell span={3}>
-            <RecipeCard title={recipe.title} img={recipe.img} />
+            <RecipeCard {recipe} />
         </Cell>
     {/each}
 </LayoutGrid>

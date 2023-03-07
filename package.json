@@ -16,9 +16,11 @@
 	},
 	"devDependencies": {
 		"@mdi/js": "^7.1.96",
+		"@smui-extra/badge": "^7.0.0-beta.0",
 		"@smui/button": "^7.0.0-beta.0",
 		"@smui/card": "^7.0.0-beta.0",
 		"@smui/common": "^7.0.0-beta.0",
+		"@smui/dialog": "^7.0.0-beta.0",
 		"@smui/icon-button": "^7.0.0-beta.0",
 		"@smui/layout-grid": "^7.0.0-beta.0",
 		"@smui/top-app-bar": "^7.0.0-beta.0",
