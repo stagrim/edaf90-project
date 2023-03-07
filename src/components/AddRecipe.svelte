@@ -14,7 +14,7 @@
     let form: HTMLFormElement
     let difficulties = [[1, "Easy"], [2, "medium"], [3, "hard"]]
 
-    let title = "", description = "", ingredients  = "", steps  = "", minutes: string = "", difficulty: [number, string], getImage
+    let title = "", description = "", ingredients  = "", steps  = "", minutes: string = "", difficulty: [number, string] = difficulties[0], getImage
 
     const submitForm = async (e: SubmitEvent) => {
         e.preventDefault()

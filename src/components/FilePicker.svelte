@@ -5,10 +5,11 @@
 
     let filePicker
     let image: string = ""
+    let error = false
 
     export const getImage = () => {
         if (!image) {
-            // TODO: form validation
+            error = true
             return null
         }
         return image
@@ -19,6 +20,7 @@
         let reader = new FileReader()
         reader.readAsDataURL(image)
         reader.onload = e => {
+            error = false
             image = e.target.result
         }
     }
@@ -26,7 +28,9 @@
     const selectFile = () => filePicker.click()
 </script>
 
-<Card on:click={selectFile} style="cursor: pointer">
+<pre class="status" class:error style="color: #d32f2f">Must select image</pre>
+
+<Card class={error && "image-error"} on:click={selectFile} style="cursor: pointer">
     <Media
         style="background-image: url({image});"
         aspectRatio="16x9"
@@ -40,3 +44,13 @@
 </Button>
 
 <input style="display: none" type="file" name="avatar" accept="image/*" placeholder="avatar" on:change={onFileSelected} bind:this={filePicker} />
+
+<style>
+    :global(.image-error) {
+        border: 2px solid #d32f2f;
+    }
+
+    pre:not(.error) {
+        display: none;
+    }
+</style>
